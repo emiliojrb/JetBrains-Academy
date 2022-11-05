@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Felicidades</title>
+    <link rel="stylesheet" href="/CSS/curso.css">
+</head>
+
+<body>
+ <main class="page-content">
+    <button class="button" onclick="toggleModal()" type="button">Cumpleaños</button>
+ </main>
+ <div class="background" onclick="toggleModal()">
+
+ </div>
+ <div class="modal">
+    <div class="modal-content">
+        <h1>Feliz Cumpleaños!!</h1>
+        <img src="/IMG/cumple.png" alt="img">
+    </div>
+ </div>
+
+ <script>
+    const toggleModal= () => document.body.classList.toggle("open")
+ </script>
+
+</body>
+</html>
