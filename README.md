@@ -1,0 +1,1 @@
+# Transiciones de cartas.
